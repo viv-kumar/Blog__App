@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#navbar {
+  display: flex;
+
+  justify-content: space-around;
+
+  background-color: rgb(149, 149, 229);
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#navbar,
+a {
+  text-decoration: none;
+  color: black;
+}
+table,th,td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
+
+}
+#blogContainer{
+  width: 80%;
+  margin: auto;
+}
+#blogContainer>*{
+  margin-bottom: 15px;;
+}
+form{
+  width: 50%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-around;
+}
+input{
+  height: 25px;
+}
